@@ -1,27 +1,25 @@
 <template>
-  <div id="app">
-    <h1>てst</h1>
-  </div>
+
 </template>
 
 <script>
-//import myheader from "./components/header.vue";
-//import myfooter from "~/components/common/footer.vue";
-//import topContents from "~/components/contents/topContents.vue";
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    //myheader,
-    //myfooter,
-    //topContents,
+    HelloWorld
   }
 }
 </script>
 
-<style lang="scss">
-.container {
-  margin:auto;
-  max-width: 1200px;
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
 </style>

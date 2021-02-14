@@ -22,7 +22,8 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
     "sass-loader": "^7.3.1",
-    "style-loader": "^2.0.0"
+    "style-loader": "^2.0.0",
+    "vue-router": "^3.5.1"
   },
   "eslintConfig": {
     "root": true,

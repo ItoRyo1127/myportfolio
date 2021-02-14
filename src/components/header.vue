@@ -3,8 +3,6 @@
     <div class="container">
       <router-link to="/">TOP</router-link>
       <router-link to="/profile">Profile</router-link>
-      <router-link to="/work">Work</router-link>
-      <router-link to="/contact">Contact</router-link>
     </div>
   </header>
 </template>

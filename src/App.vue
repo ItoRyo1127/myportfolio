@@ -1,19 +1,19 @@
 <template>
-
+  <myheader />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import myheader from './components/header.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    myheader,
   }
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
